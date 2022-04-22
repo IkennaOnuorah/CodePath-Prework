@@ -40,6 +40,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
 GameWin
 ![GameWin](https://cdn.glitch.global/9a43848f-29c5-4d08-86a7-5ecc82c1cb26/gamewin.gif?v=1650606107557)
 GameLose
