@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Lights and Tunes</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Lights and Tunes Memory Game
+    </h1>
+    
+    <p>
+      Welcome to the Lights and Tunes Memory game! To play the game repeat back to the flash patterns of the game by pressing buttons.
+    </p>
+    
+    <p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+      
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone(1)">
+        <img  id="image1"  class="hidden"  src="https://cdn.glitch.global/9a43848f-29c5-4d08-86a7-5ecc82c1cb26/Volleyball-PNG-Free-Download.png?v=1650495891872">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone(2)">
+        <img  id="image2"  class="hidden"  src="https://cdn.glitch.global/9a43848f-29c5-4d08-86a7-5ecc82c1cb26/american-football-rugby-bola-de-futebol-dde0fd8023930d2bc56d8a43b71f117a.png?v=1650495770694">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone(3)">
+        <img  id="image3"  class="hidden" src="https://cdn.glitch.global/9a43848f-29c5-4d08-86a7-5ecc82c1cb26/580b585b2edbce24c47b2b90.png?v=1650496059599">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone(4)">
+        <img  id="image4"  class="hidden" src="https://cdn.glitch.global/9a43848f-29c5-4d08-86a7-5ecc82c1cb26/Basketball-PNG-HD.png?v=1650482577697">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone(5)">
+        <img  id="image5"  class="hidden" src="https://cdn.glitch.global/9a43848f-29c5-4d08-86a7-5ecc82c1cb26/619px-Baseball_(crop)_transparent.png?v=1650483334329">
+      </button>
+    </div>
+    
+      
+    </p>
+    
+  <div>
+    <footer>
+    <div class="row">
+    <div class= "column">
+    <p>Author: Ikenna Onuorah</p>
+    </div>
+    <div class= "column">
+    <a href="mailto:promise54500@gmail.com">promise54500@gmail.com</a>
+  </div>
+  </div>
+    </footer>
+  </div>
+  </body>
+</html>
